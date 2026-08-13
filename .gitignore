@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Виртуальные окружения ---
+.venv/
+venv/
+ENV/
+env/
+target/
+
+# --- Настройки VS Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# --- Переменные окружения и секреты ---
+.env
+.env.*
+!.env.example
+secrets.toml
+
+# --- Логи и базы данных ---
+*.log
+*.sqlite
+*.sqlite3
+
+# --- Тесты и покрытие кода ---
+.htmlcov/
+.tox/
+.nosexy/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+
+# --- Специфичные файлы ОС ---
+.DS_Store
+Thumbs.db
